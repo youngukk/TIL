@@ -1,0 +1,23 @@
+.test_image {
+    width: 25%;
+    flex-shrink: 1;
+}
+
+.test_image2 {
+    width: 25%;
+    margin: 0 10px 0 10px;
+    flex-shrink: 3;
+}
+
+.test_div {
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.test_p {
+    display: inline-block;
+    width: 70%;
+    flex-basis: content;
+}
